@@ -93,5 +93,12 @@ test('extracting values', async({page}) => {
    expect(placeholderValue).toEqual('Email')
 
 })
+test('assertions', async({page}) => {
+   //general assertions
+   const value = 5
+   expect(value).toEqual(5)
+
+
+})
 
 
