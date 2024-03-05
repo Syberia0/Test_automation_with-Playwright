@@ -10,7 +10,7 @@ test.beforeEach(async({page}, testInfo) => {
 
 })
 
-test('auto waiting change ', async({page}) => {
+test('auto waiting change2 ', async({page}) => {
   const successButton = page.locator('.bg-success')
   // wait for element
   //await page.waitForSelector('.bg-success)
